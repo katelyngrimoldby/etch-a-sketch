@@ -5,10 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Etch-a-Sketch</title>
+    <title>Sketch Pad</title>
 </head>
 <body>
-    <div class="container">
+    <header><h1>Sketch Pad</h1></header>
+
+    <!--settings container-->
+    <div class="settings">
+        <input type="color" id="colorPick" name="Color Picker" value="#000000">
+        <button name="Single-color Mode" id="color" type="button">Color</button>
+        <button name="Rainbow Mode" id="rainbow" type="button">Rainbow</button>
+        <button name="Eraser Mode" id="eraser" type="button">Eraser</button>
+        <button name="Clear Grid" id="clear" type="button">Clear Grid</button>
+        <label for="size">16x16</label>
+        <input type="range" name="Size Slider" id="size" min="1" max="64" step="1">
+    </div>
+
+    <!--grid container-->
+    <div class="grid">
         
     </div>
 
